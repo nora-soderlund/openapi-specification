@@ -21,7 +21,7 @@ on:
 
 jobs:
   release:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     env:
       GOOGLE_MAPS_JS_SAMPLES_KEY: "${{ secrets.GOOGLE_MAPS_JS_SAMPLES_KEY }}"
     steps:
@@ -45,6 +45,7 @@ jobs:
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v2
         with:
+          semantic_version: 19
           extra_plugins: |
             "@semantic-release/commit-analyzer"
             "@semantic-release/release-notes-generator"

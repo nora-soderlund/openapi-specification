@@ -1,7 +1,7 @@
 {
   "name": "http-specification",
   "private": true,
-  "version": "1.22.0",
+  "version": "1.22.1",
   "homepage": "https://github.com/googlemaps/openapi-specification#readme",
   "bugs": {
     "url": "https://github.com/googlemaps/openapi-specification/issues"
@@ -30,7 +30,7 @@
     "@bazel/buildifier": "^4.0.1",
     "@bazel/buildozer": "^5.1.0",
     "@bazel/ibazel": "^0.16.2",
-    "@bazel/typescript": "3.7.0",
+    "@bazel/typescript": "^3.7.0",
     "@google/semantic-release-replace-plugin": "^1.1.0",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/npm": "^9.0.1",
